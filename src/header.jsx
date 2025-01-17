@@ -4,9 +4,10 @@ import { BeakerIcon, ArrowRightIcon } from "@heroicons/react/24/solid";
 const Header = () => {
   return (
     <div className="font-sans">
+      <div class="absolute inset-0 -z-10 -top-1/3 h-full w-full mesh-gradient-header opacity-50"></div>
       <section className="py-10">
         <section className="pt-12">
-          <div className="container max-w-7xl">
+          <div className="max-w-7xl mx-auto">
             <div className="mx-auto flex max-w-4xl flex-col items-center">
               <div className="z-10 flex flex-col items-center gap-6 text-center">
                 <div>
