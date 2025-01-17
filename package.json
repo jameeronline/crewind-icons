@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://jameeronline.github.io/crewind-icons",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,7 +11,9 @@
     "preview": "vite preview",
     "svgr": "svgr src/icons -d components/icons --icon --ext jsx",
     "test": "svgr src/icons -d components/icons --icon --ext jsx --filename-case kebab",
-    "svgo": "svgo -f src/icons2 -o src/optimized-icons"
+    "svgo": "svgo -f src/icons2 -o src/optimized-icons",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.0",
