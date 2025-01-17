@@ -1,0 +1,46 @@
+{
+  "name": "bootstrap-icons-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "svgr": "svgr src/icons -d components/icons --icon --ext jsx",
+    "test": "svgr src/icons -d components/icons --icon --ext jsx --filename-case kebab",
+    "svgo": "svgo -f src/icons2 -o src/optimized-icons"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.0",
+    "@heroicons/react": "^2.2.0",
+    "@svgr/core": "^8.1.0",
+    "clsx": "^2.1.1",
+    "react": "^18.3.1",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "^18.3.1",
+    "sonner": "^1.7.1",
+    "tailwind-variants": "^0.3.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@svgr/babel-plugin-svg-dynamic-title": "^8.0.0",
+    "@svgr/cli": "^8.1.0",
+    "@tailwindcss/forms": "^0.5.10",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "gh-pages": "^6.3.0",
+    "globals": "^15.14.0",
+    "postcss": "^8.5.1",
+    "svgo": "^3.3.2",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.0.5"
+  }
+}
