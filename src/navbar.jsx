@@ -112,7 +112,7 @@ const Navbar = () => {
               </div>
               <div className="hidden items-center gap-4 lg:flex">
                 <button className="inline-flex items-center justify-center whitespace-nowrap rounded-full border border-input text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-[#168e3b] h-8 px-4 py-2">
-                  v1.0.0
+                  {import.meta.env.VITE_VERSION}
                 </button>
                 <a
                   href="http://github.com/jameeronline"
